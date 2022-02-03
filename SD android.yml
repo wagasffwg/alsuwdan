@@ -1,0 +1,26 @@
+name: SD Android CI
+
+on: https://wagasffwg.com
+  push: github web wagasffwg
+    branches: [ https/wagasffwg.com ]
+  pull_request: https/wagasffwg.co
+    branches: [ https/wagasffwg.com ]
+
+jobs: steps web
+  build: https://wagasffwg.com
+
+    runs-on: ubuntu-latest
+
+    steps: github
+    - uses: actions/checkout@v2
+    - name: set up JDK 11
+      uses: actions/setup-java@v2
+      with: https://wagasffwg.com
+        java-version: '11'
+        distribution: 'temurin'
+        cache: web google yahoo wagasffwg
+
+   https://github.com/wagasffwg  - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+  https://wagasffwg.com  - name: Build with Gradle
+      run: ./gradlew build
